@@ -21,10 +21,28 @@ class _HomePageState extends State<HomePage> {
           children: [
             Text('What\'s up, Iqbal!'),
             Column(
-              children: [Text('CATEGORIES'), Row()],
+              children: [
+                Text('CATEGORIES'),
+                Row(
+                  children: [
+                    MyCard(),
+                    MyCard(),
+                    MyCard(),
+                  ],
+                )
+              ],
             ),
             Column(
-              children: [Text('TODAY\'S TASK'), Row()],
+              children: [
+                Text('TODAY\'S TASK'),
+                Column(
+                  children: [
+                    MyCard(),
+                    MyCard(),
+                    MyCard(),
+                  ],
+                )
+              ],
             ),
           ],
         ),
