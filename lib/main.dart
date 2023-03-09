@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       create: (BuildContext context) {},
       child: MaterialApp(
         theme: ThemeData(
-          primarySwatch: Colors.green,
+          primarySwatch: Colors.teal,
         ),
         title: 'Flutter Demo',
         onGenerateRoute: (settings) {
